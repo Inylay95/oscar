@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1600px;
+}
+
+.Oscar_block {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    margin-left: 213px;
+    margin-top: 70px;
+}
+
+.title_Oscar {
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+}
+
+inner_Oscar {
+    font-size: 30px;
+}
+
+header {
+    margin: :0;
+    padding: 0;
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    height: 568px;
+    width: 1600px;
+}
+
+.link {
+    width: 1600px;
+    height: 58px;
+    background: #cfbb95;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.link a {
+    color: #e6dbc8;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
