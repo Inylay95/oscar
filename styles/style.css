@@ -52,6 +52,8 @@ a {
     text-decoration: none;
     text-align: center;
     justify-content: center;
+    display: flex;
+    
 }
 
 ul {
@@ -108,6 +110,7 @@ ul {
     text-decoration: none;
     outline: none;
     border: 0;
+    cursor: pointer;
     outline: 0;
     background: #cfbb95;
     color: #f1ebdf;
@@ -120,10 +123,32 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    margin-top: 221px;
+    position: absolute;
+    bottom: 45px;
     width: 427px;
     justify-content: space-between;
     text-transform: uppercase;
     font-size: 30px;
     font: 100;
+}
+
+.topmenu__item:hover .topmenu__icon_unhover {
+    display: none;
+}
+
+.topmenu__icon_hover {
+    display: none;
+}
+
+.topmenu__item:hover .topmenu__icon_hover {
+    display: inline-block;
+    
+}
+a:hover{
+    color:#e6a935;
+    text-align: center;
+    
+}
+span{
+    padding-left: 6px;
 }
