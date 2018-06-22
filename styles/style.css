@@ -53,7 +53,6 @@ a {
     text-align: center;
     justify-content: center;
     display: flex;
-    
 }
 
 ul {
@@ -142,13 +141,18 @@ ul {
 
 .topmenu__item:hover .topmenu__icon_hover {
     display: inline-block;
-    
 }
-a:hover{
-    color:#e6a935;
+
+a:hover {
+    color: #e6a935;
     text-align: center;
-    
 }
-span{
+
+span {
     padding-left: 6px;
+}
+.content{
+    width: 830px;
+    margin: 0 auto;
+    padding: 0;
 }
