@@ -156,20 +156,7 @@ span {
     margin: 0 auto;
     padding: 0;
 }
-.footer{
-    margin: 0 auto;
-    padding: 0;
-    max-width: 1600px;
-    height: 98px;
-    background: #000000;
-}
-.footer_logo{
-    margin: 0 auto;
-    padding: 0;
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-}
+
 .news__info{
     display: flex;
 }
@@ -183,4 +170,18 @@ span {
 
 .info__arrow:hover .info__icon_hover {
     display: inline-block;
+}
+.news__info {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.news__textPreview{
+    font-weight: 400;
+    font-size: 18px;
+}
+p{
+    font-size: 14px;
+    font-weight: 300;
 }
