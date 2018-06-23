@@ -156,3 +156,31 @@ span {
     margin: 0 auto;
     padding: 0;
 }
+.footer{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1600px;
+    height: 98px;
+    background: #000000;
+}
+.footer_logo{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.news__info{
+    display: flex;
+}
+.info__arrow:hover .info__icon_unhover {
+    display: none;
+}
+
+.info__icon_hover {
+    display: none;
+}
+
+.info__arrow:hover .info__icon_hover {
+    display: inline-block;
+}
