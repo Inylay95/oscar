@@ -9,6 +9,18 @@ body {
     margin: 0 auto;
     padding: 0;
     max-width: 1200px;
+    margin: -12, 5px;
+}
+
+.col-4 {
+    width: calc(100%/3);
+}
+
+.wrapper__picture {
+    overflow: hidden;
+    width: 100%;
+    height: 190px;
+    margin-right: calc(25px/2);
 }
 
 .banner {
@@ -67,6 +79,11 @@ ul {
 
 .row {
     display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: calc(-25px/2);
+    padding: calc(-25px/2);
+    margin-bottom: 23px;
 }
 
 .contacts {
@@ -194,12 +211,16 @@ span {
     font-size: 14px;
     font-weight: 300;
     margin-left: 5px;
+    margin-right: 15px;
+    
 }
 
-.info__date{
+.info__date {
     display: flex;
-    align-items: center; 
+    align-items: center;
+    margin-right: 15px;
 }
+
 .info__guardian {
     display: flex;
     align-items: center;
@@ -207,8 +228,8 @@ span {
 
 .info__icons {
     display: flex;
-    width: 370px;
     justify-content: space-between;
+   
 }
 
 .info__arrow {
@@ -225,14 +246,15 @@ span {
 .info__time {
     display: flex;
     align-items: center;
+    margin-right: 15px;
 }
 
 .new__picture {
     display: flex;
-    
     align-items: center;
     justify-content: space-between;
 }
 
-
+.menu {
+    display: flex;
 }
