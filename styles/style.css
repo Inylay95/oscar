@@ -177,9 +177,7 @@ a:hover {
     display: inline-block;
 }
 
-span {
-    padding-left: 6px;
-}
+
 
 .content {
     max-width: 830px;
@@ -301,13 +299,22 @@ span.menu__no.hover{
     color: #6ab04f;
 }
 
+.menu__icon_st{
+    margin-left: 2px;
+}
+
 .menu {
     display: flex;
     margin: 0;
     padding: 0;
     justify-content: space-between;
     align-items: center;
+    margin-right: 22px;
 }
+.menu__icon{
+    margin-right: 2px;
+}
+
 
 .social-list {
    
@@ -324,7 +331,7 @@ span.menu__no.hover{
 }
 .social__list_item_email{
     
-    background-position-y: 50px;
+    background-position-y: 10px;
 }
 
 .footer {
@@ -367,4 +374,9 @@ span.menu__no.hover{
 
 .news__item {
     margin-bottom: 50px;
+}
+.plyr--audio .plyr__controls {
+    background: #b2b2b2;
+    width: 827px;
+    height: 142px;
 }
