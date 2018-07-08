@@ -351,6 +351,7 @@ span.menu__no.hover{
     text-align: center;
     position: relative;
     color: #4a4a4a;
+    margin-bottom: 70px;
 }
 
 .line span {
@@ -376,7 +377,49 @@ span.menu__no.hover{
     margin-bottom: 50px;
 }
 .plyr--audio .plyr__controls {
-    background: #b2b2b2;
+    background:#f0f0f0;
     width: 827px;
     height: 142px;
 }
+.block__item_user{
+    display: flex;
+    align-items: center;
+    
+}
+img.comments__block_item_user{
+    margin-right: 15px;
+}
+
+
+.comments__block_caption{
+    margin-right: 20px;
+    font-weight: 700;
+}
+.comments{
+    font-size: 16px;
+}
+a.comments__block_item_reply{
+    color:#2b66b2;
+    float:left;
+}
+.block__item_heading{
+    margin-bottom: 10px;
+}
+.block__item_caption{
+    margin-bottom: 10px;
+}
+.comments__block_data{
+    font-size: 14px;
+    font-weight: 300;
+    color: #b2b2b2;
+}
+.comments__block_item{
+    margin-bottom: 67px;
+}
+.comments__block_items items{
+    margin-right: 30px;
+}
+.comments__block_inside-item{
+    padding-left: 92px;
+}
+
