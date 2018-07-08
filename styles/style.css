@@ -422,4 +422,27 @@ a.comments__block_item_reply{
 .comments__block_inside-item{
     padding-left: 92px;
 }
-
+.comments__notes{
+    background: #f0f0f0;
+    max-width: 830px;
+    height: 183px;
+    margin-bottom:35px;
+   
+}
+.comments__notes_your-comment{
+ color:#b0afb0;  
+ display: flex;
+ padding: 10px;
+}
+.comments__menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.comments__menu-list_item{
+    margin-right: 10px;
+    
+}
+.menu-list{
+color:#7e7e7e;
+}
