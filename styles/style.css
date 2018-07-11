@@ -381,19 +381,18 @@ span.menu__no.hover {
     height: 142px;
 }
 
-.one-comments__item {
+.page-comments__list-users {
+    margin-left: 15px;
+}
+
+.comments__page-comments{
     display: flex;
-    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
-img.comments__block_item_user {
-    margin-right: 15px;
-}
 
-.comments__block_caption {
-    margin-right: 20px;
-    font-weight: 700;
-}
 
 .comments {
     font-size: 16px;
@@ -404,11 +403,11 @@ a.comments__block_item_reply {
     float: left;
 }
 
-.block__item_heading {
+.page-comments__list-users_last-topic{
     margin-bottom: 10px;
 }
 
-.block__item_caption {
+.page-comments__snippet-desc {
     margin-bottom: 10px;
 }
 
@@ -429,7 +428,12 @@ a.comments__block_item_reply {
 .comments__block_inside-item {
     padding-left: 92px;
 }
-
+.comments__answer-comments{
+    margin-left: 30px;
+}
+.page-comments__list-users_post-link{
+    margin-bottom: 50px;
+}
 .comments__notes {
     background: #f0f0f0;
     max-width: 830px;
