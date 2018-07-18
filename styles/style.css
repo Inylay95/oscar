@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 body {
-  margin: 0;
+  max-width: 1920px;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Lato', sans-serif;
+}
+h1{
+  margin-top: 0;
+}
+h2{
+  margin-top: 0;
 }
 a{
   text-decoration: none;
@@ -85,6 +92,9 @@ ul{
   color: #ffffff;
 }
 .banner__title {
+  margin-top: 32px;
+  margin-left: 13px;
+  letter-spacing: -0.8px;
   font-size: 60px;
   font-weight: 700;
 }
@@ -314,11 +324,17 @@ ul{
   overflow: hidden;
   position: absolute;
   top: 50px;
-  border: 2px solid #e5e5e5;
   padding: 15px;
-  padding-left: 17px;
 }
 
+.dropdown__menu{
+  position: absolute;
+  background-image: url("../images/icon__ramka.png");
+  width: 115px;
+  height: 188px;
+  background-repeat: no-repeat;
+  padding-top: 26px;
+}
 .social__list_item {
   background-position-x: 0;
   background-position-y: 0;
@@ -333,47 +349,43 @@ ul{
   background-repeat: no-repeat;
   width: 17px;
   height: 20px;
+  padding-left: 5px;
 }
 .social-list__link{
   display: flex;
+
+}
+.social-list__item:not(:last-child){
+  margin-bottom: 5px;
 }
 .social-list__icon_em {
   background-position-y: 0;
+  margin-top: 4px;
 }
 .social-list__icon_fb {
-  background-position-y: -23px;
+  background-position-y: -21px;
 }
 .social-list__icon_tw {
-  background-position-y: -50px;
+  background-position-y: -48px;
 }
 .social-list__icon_pin {
-   background-position-y: -75px;
+   background-position-y: -73px;
  }
 .social-list__icon_gl {
-    background-position-y: -99px;
+    background-position-y: -98px;
   }
 .social-list__icon_tum {
   background-position-y: -125px;
 }
-my-plyer {
+.my-plyer {
   background: #f0f0f0;
   position: relative;
+  border-radius: 5px;
 }
 
 .my-plyer .plyr--audio .plyr__controls {
   background: #f0f0f0;
   padding: 20px;
-}
-.my-plyer .plyr--audio .plyr__controls.plyr__progress.plyr__time plyr__time--current {
-  display: flex;
-  flex: 1;
-  left: 18px;
-  margin-right: 14px;
-  position: relative;
-}
-.my-plyer.{
-  position: absolute;
-  top: 20px;
 
 }
 
@@ -384,20 +396,21 @@ my-plyer {
   padding-left: 29px;
 }
 
-.track-name {
+.my-plyer .track-name {
   position: absolute;
-  top: 0;
+  top: 15px;
+  left:150px;
+  font-style: oblique;
 }
-.footer {
-  background: black;
-  padding: 35px 10px;
+.my-plyer .plyr__controls .plyr__time{
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.my-plyer .plyr--audio .plyr__controls{
+  border-radius: 5px;
 }
 
-.footer__row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .line {
   font-size: 18px;
@@ -532,14 +545,21 @@ my-plyer {
 .social-wide{
   display: flex;
 }
-.btn-medium{
-padding: 15px;
-width: 100%;
-margin-bottom: 100px;
-  background: none;
-  outline:none;
+.video-back{
+  background: #f0f0f0;
+  padding: 20px;
   border-radius: 5px;
-  box-shadow: none;
+}
+.btn-medium {
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 100px;
+  background: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #8491bd;
+  cursor: pointer;
+
 }
 .icon-excel{
   background-image: url("../images/icon__button.png");
@@ -584,4 +604,13 @@ margin-bottom: 100px;
 
 .footer__social-icons_all {
   margin-right: 5px;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer {
+  background: black;
+  padding: 35px 10px;
 }
